@@ -1,0 +1,103 @@
+:root {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  background-size: cover;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.box h1 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.box .inputBox {
+  position: relative;
+}
+.box .inputBox input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.box .inputBox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+  top: -18px;
+  left: 0;
+  color: #03a9f4;
+  font-size: 12px;
+}
+.register {
+  color: #03a9f4;
+}
+.box input[type="submit"] {
+  width: 300px;
+  border: none;
+  outline: none;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  animation: gradient 15s ease infinite;
+  font-size: large;
+}
+
+/* Add focus transition to login box */
+box input[type="submit"]:hover{
+  width: 400px;
+  border: none;
+  outline: none;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  animation: gradient 15s ease infinite;
+  font-size: larger;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
