@@ -8,7 +8,8 @@
 ## DAY 002 -MOBILE RESPONSIVE NAVBAR
 ## A Simple mobile responsive sidebar navigation menu.
 [Link](https://mobileresponsivenavbar.netlify.app/)
-![response_nav](https://user-images.githubusercontent.com/83149058/141060919-0caf4f38-9674-47d9-b7b5-f833e0c0b9fa.PNG)
+![reponsive](https://user-images.githubusercontent.com/83149058/141061278-89cd9c88-1549-4672-9052-2ee983bfe9a3.PNG)
+
 
 
  
