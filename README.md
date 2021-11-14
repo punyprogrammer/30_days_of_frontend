@@ -23,6 +23,12 @@
 [Demo link](https://css-card-transition.netlify.app/)
 
 ![none](https://user-images.githubusercontent.com/83149058/141643241-62e4498f-1952-489a-b039-874cdaab32c8.jpeg)
+## DAY 006 -3D CARD TRANSITION 
+[Link](https://card-3dtransitions.netlify.app/)
+
+## Simple 3d card transition using html css
+
+![image](https://user-images.githubusercontent.com/83149058/141672013-0200d7c6-964d-47d4-a767-ccd246e48d51.png)
 
 
 
